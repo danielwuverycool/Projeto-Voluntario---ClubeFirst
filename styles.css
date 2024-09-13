@@ -1,0 +1,453 @@
+.bungee-inline-regular {
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.inter-uniquifier {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.alfa-slab-one-regular {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+  } 
+  nav{
+    justify-content: center;
+
+  }
+
+.menu{
+    font-family: "Inter", system-ui;
+    font-size: 19px;
+    position: fixed;
+    z-index: 10;
+    gap: 90px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(19, 25, 35);
+    margin-top: 250px;
+    padding-top: 10%;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    font-family: "Inter", system-ui;
+}
+
+.contacts {
+    background-color: rgb(19, 25, 35);    
+}
+
+.befirst {
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 250px;
+} 
+
+.befirst h3 strong {
+    color: gray;
+}
+
+
+
+.email input {
+    width: 250px;
+    height: 35px;
+    position: relative;
+    background-color: rgb(19, 25, 35);
+    font-weight: 500;
+    border-width: 1px;
+    border-color: white;
+    position: absolute;
+    border-radius: 8px;
+    padding-left: 15px;
+    color: white;
+}
+
+.email button {
+    margin-top: 6px;
+    margin-left: 206px;
+    position: relative;
+    width: 38px;
+    height: 25px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 5px;
+}
+
+.info h3 {
+    font-size: 15px;
+}
+
+.info li {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.278);
+}
+
+.linhasep {
+    width: 100%;
+    
+}
+
+
+.befirst h3 {
+    margin-top: 90px;
+    width: 280px;
+}
+
+
+.info {
+    display: inline-flex;
+    align-items: top;
+    gap: 30px;
+
+}
+
+.info ul {
+    list-style: none;
+    text-align: left;
+}
+
+.column3{
+    font-family: "Inter", system-ui;
+    text-align: center;
+    float: left;
+    width: 430px;
+    padding: 40px;
+    gap: 30px;
+}
+
+.row3{
+    padding: 0px;
+    margin: 0px;
+    display: inline-flex;
+
+}
+
+.tos {
+    display: inline-flex;
+    gap: 30px;
+}
+
+.tos, .copyright {
+    font-size: 10px;
+}
+
+
+
+main{
+    width: 100%;
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+.column{
+    float: left;
+    width: 32%;
+    padding: 240px 30px;
+}
+
+.row{
+    padding: 40px;
+    margin: 0 15px;
+    display: inline-flex;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+    border-radius: 15px;
+    width: 400px;
+    height: 550px;
+    background-color: #151120;
+    position: relative;
+    
+}
+
+.column2{
+    float: left;
+    width: 32%;
+    padding: 0px 10px;
+}
+
+.row2{
+    padding: 10px;
+    margin: 0 15px;
+    display: inline-flex;
+}
+
+.card2 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+    border-radius: 15px;
+    width: 450px;
+    height: 300px;
+    background-color: rgb(19, 25, 35);
+    font-family: "Inter", system-ui;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    margin-bottom: 150px;
+}
+
+.manifest p, .regulamento p, .report p {
+    color: gray;
+}
+ 
+.manifest h3, .regulamento h3, .report h3{
+    font-size: 30px;
+    margin-bottom: 60px;   
+}
+
+.quemsomos button{
+    height: 70px;
+    width: 220px;
+    background: rgb(2,0,36);
+    background: linear-gradient(267deg, rgba(2,0,36,1) 0%, rgba(16,16,233,1) 0%, rgba(0,212,255,1) 100%);
+    border-radius: 50px;
+    font-size: 18px;
+    color: white;
+
+}
+
+
+.finalcall button{
+    margin-top: 80px;
+    height: 55px;
+    width: 250px;
+    background: rgb(2,0,36);
+    background: linear-gradient(267deg, rgba(2,0,36,1) 0%, rgba(16,16,233,1) 0%, rgba(0,212,255,1) 100%);
+    border-radius: 50px;
+    font-size: 17px;
+    color: white;
+
+
+}
+
+.oqueepf, .howitstarted, .aondequeremoschegar {
+    margin-left: 5%;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    width: 80%;
+    height: 400px;
+    justify-content: center;
+    font-family: "Inter", system-ui;
+    display: flex;
+    gap: 240px;
+}
+
+.texto {
+    padding-top: 40px;
+    padding-left: 170px;
+    width: 50%;
+    text-align: left
+}
+
+
+
+
+.card button{
+    position: absolute;
+    top: 450px;
+    right: 50px;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+.card:hover{
+    transform: scale(1.1) rotate(2deg);
+}
+
+.clube.astronomia{
+    border-width: 70px;
+    border-color: white;
+}
+
+.card h2{
+    font-family: "Inter";
+    font-size: 35px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.inter li, .card p{
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 20px;
+    list-style: url(img/checkbranco.png);
+}
+
+.clube.astronomia{
+    outline: 50px;
+    outline-color: white;
+    
+}
+
+.astronomia li{
+    color: rgb(104, 179, 249);
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 20px;
+    list-style: url(img/checkazul.png);
+}
+
+
+
+.title, .sub_title{
+    background: -webkit-linear-gradient(white, rgb(143, 183, 232));   	                                                                
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+  
+.home h2, .sub_title{
+    font-family: "Alfa Slab One", system-ui;
+    font-size: 40px;
+}
+
+html{
+    background-color: #01040d;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.azul_escuro{
+    color: rgb(37, 51, 210);
+}
+
+.inter,.clube.xadrez,.clube.astronomia,.clube.olimpiada,.xadrez,.astronomia,.olimpiada{
+    font-family: "Inter",system-ui;
+}
+
+.home{
+   padding-top: 200px;
+   background-image: url(img/fundo.png);
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 100vh;
+   background-position: center;
+}
+
+
+.home1{
+    padding-top: 200px;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+ }
+
+.img_title{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    
+}
+
+.img_title1{
+    display: flex;
+    justify-content: left;
+    gap: 90px;
+    margin-left: 50px;
+    
+}
+
+.title1 {
+    font-size: 70px;
+    font-family: "Bungee Inline", system-ui;
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+    background: -webkit-linear-gradient(white, rgb(143, 183, 232));   	                                                                
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.firster{
+    background-color: white;
+    border: 1px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 147px;
+    height: 35px;
+    border-radius: 6px;
+    font-family: "Inter",system-ui;
+}
+
+.calendario h1{
+    font-size: 51px;
+    font-weight: 600;
+    font-family: "Inter",system-ui;
+}
+
+.inscrevase{
+    background-color: #080E43;
+    border: 1px;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    width: 130px;
+    height: 30px;
+    border-radius: 16px;
+}
+
+.calendario p{
+    font-size: 22px;
+}
+
+.saibamais{
+    color: #595C68;
+    font-family: "Inter", system-ui;
+    font-weight: 400;
+    font-style: bold;
+}
+
+.title{
+    font-size: 70px;
+    font-family: "Bungee Inline", system-ui;
+}
+
+
+
+header, nav, .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 70px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.529);
+}
+
+.befirst, .contacts, .info, .email {
+    font-style: "Inter",system-ui;
+}
